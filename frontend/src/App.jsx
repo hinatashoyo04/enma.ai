@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import ChatDashboard from "./pages/ChatDashboard";
 import Chat from "./pages/Chat";
+import Call from "./pages/Call";
 
 import NotFound from "./pages/NotFound";
 
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/chat/1" element={<Chat/>} />
     
         <Route path="*" element={<NotFound />} />
+        <Route path="/call/:id" element={<Call />} />
 
 
         
